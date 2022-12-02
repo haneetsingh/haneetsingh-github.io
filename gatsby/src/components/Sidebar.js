@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.jpg';
+import avatar from '../assets/images/avatar.png';
 import ThemeContext from '../context/ThemeContext';
 
 const tabs = [

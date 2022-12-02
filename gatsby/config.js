@@ -28,28 +28,40 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/iSinghHaneet',
     },
-    {
-      icon: 'fa-drupal',
-      name: 'Drupal',
-      url: 'https://www.drupal.org/u/singh_haneet',
-    }
+    // {
+    //   icon: 'fa-drupal',
+    //   name: 'Drupal',
+    //   url: 'https://www.drupal.org/u/singh_haneet',
+    // }
   ],
   email: 'singh.haneet007@gmail.com',
-  address: 'Amsterdam, Netherlands',
+  address: 'Toronto, Canada',
   about: [
-    'I am an open-source enthusiast and passionate web developer. I like to build incredible visual interfaces, user experiences, branding assets and guidelines. I am experienced in modern Javascript frameworks like React.js, Vue.js, Angular, Drupal frontend & backend, PHP, Node.js, Express, MongoDB, PostgreSQL, MySQL, Sass/LESS and HTML/CSS.'
+    'A technology leader with a demonstrated ability to acquire and apply skills and knowledge to execute strategic initiatives as well as grow and evolve teams.',
+    'Over 10 years of experience building and leading B2B/B2C web and mobile applications. Experienced in assessing and prioritizing market opportunities then building the roadmap to make it happen. Maintains perspective but values detail. Passionate about the entire tech-ecosystem from technologies and platforms to methodologies and management styles.'
   ],
   experience: [
+    {
+      position: 'CTO',
+      organisation: 'FINNEO',
+      from: 'Nov 2021',
+      to: 'Present',
+      projects: [
+        {
+          title: 'NEO',
+          description: 'Leading the software development chapter of a B2B Commercial Real Estate debt financing platform.',
+        }
+      ]
+    },
     {
       position: 'Senior Consultant',
       organisation: 'ING Bank',
       from: 'Oct 2020',
-      to: 'Present',
+      to: 'Oct 2021',
       projects: [
         {
           title: 'ING Web Apps - Netherlands and Belgium',
-          description: 'Responsible for developing the web banking applications using the latest web standards and technologies like ES Modules, Web Components, LitElement and lit-html',
-          // stack: 'Node.js, Express, React.js, PostgreSQL, MongoDB'
+          description: 'Leading the software development team of a B2B Commercial Real Estate debt financing platform.'
         }
       ]
     },
@@ -241,14 +253,15 @@ module.exports = {
   skills: {
     programming: [
       'Javascript',
-      'React.js',
+      'Node.js',
+      'PHP',
+      'React',
       'Angular',
+      'Vue.js',
+      'Typescript',
       'Web Components',
       'lit-html',
       'LitElement',
-      'Typescript',
-      'Node.js',
-      'PHP',
       'jQuery',
       'ES6',
       'Redux',
