@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://haneetsingh.github.io/sitemap-index.xml
+Host: https://haneetsingh.github.io
